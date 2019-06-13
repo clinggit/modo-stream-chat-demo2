@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {
   Chat,
   Channel,
+  ChannelList,
   ChannelHeader,
   Thread,
   Window
