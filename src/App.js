@@ -27,7 +27,7 @@ class App extends Component {
       this.client.devToken('steve-smith'),
     );
 
-    this.channel = this.client.channel("messaging", "godevs", {
+    this.channel = this.client.channel("messaging", "anthropology", {
       image:
         "https://static.modolabs.com/cling/anthropology.png",
       name: "Talk about Anthropology"
