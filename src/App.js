@@ -28,7 +28,7 @@ class App extends Component {
 
     this.channel = this.client.channel("messaging", "godevs", {
       image:
-        "https://cdn.chrisshort.net/testing-certificate-chains-in-go/GOPHER_MIC_DROP.png",
+        "https://static.modolabs.com/cling/anthropology.png",
       name: "Talk about Anthropology"
     });
   }
@@ -36,7 +36,7 @@ class App extends Component {
   render() {
     return (
       <Chat client={this.client} theme={"messaging light"}>
-      <ChannelList />  
+      <ChannelList />
       <Channel channel={this.channel}>
           <Window>
             <ChannelHeader />
