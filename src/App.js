@@ -36,7 +36,8 @@ class App extends Component {
   render() {
     return (
       <Chat client={this.client} theme={"messaging light"}>
-        <Channel channel={this.channel}>
+      <ChannelList />  
+      <Channel channel={this.channel}>
           <Window>
             <ChannelHeader />
             <MessageList />
